@@ -5,7 +5,7 @@ Switcher
 
 <h2>HTML</h2>
 
-<p>The HTML ha a simple structure</p>
+<p>The HTML has a simple structure</p>
 
 <pre>
   &lt;div class=&quot;switcher-container&quot;&gt;
@@ -24,7 +24,7 @@ Switcher
 <pre>
   jQuery('.switcher-container').switcher();
 </pre>
-<p>The plugin accept only one options, if you wanto the follow the links inside the dropdown instead of close and make something via javascript:</p>
+<p>The plugin accept only one options, if you want to follow the links inside the dropdown instead of close and make something via javascript:</p>
 <pre>
   jQuery('.switcher-container').switcher({follow:true});
 </pre>
