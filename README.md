@@ -31,3 +31,6 @@ Switcher
 
 <h2>CSS</h2>
 <p>Apply the style based on your design!</p>
+
+<h2>Examples</h2>
+<p>For a complete reference list with all the demo visit the demo page http://switcher.giovannibuffa.it/docs</p>
