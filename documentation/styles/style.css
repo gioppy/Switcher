@@ -1,0 +1,454 @@
+/*GENERAL*/
+
+body{
+font:85% 'Bariol Light', Arial, sans-serif;
+color:#000;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-weight:normal;
+text-transform:uppercase;
+}
+
+a{
+color:#7458ea;
+}
+
+strong{
+font-family:'Bariol Regular', Arial, sans-serif;
+font-weight:normal;
+}
+
+.left{float:left;}
+
+.right{float:right;}
+
+span.clear{
+display:block;
+clear:both;
+height:0;
+}
+
+#wrapper{
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+}
+
+#wrapper .fullscreen{
+position:relative;
+width:100%;
+height:100%;
+}
+
+#wrapper .doc-page{
+position:relative;
+width:100%;
+}
+
+/*LOGO*/
+
+#logo{
+background:#9fe9bd fixed;
+}
+
+#logo h1{
+width:400px;
+height:150px;
+position:absolute;
+left:50%;
+top:50%;
+margin:-90px 0 0 -265px;
+padding:21px 0 0 140px;
+background:url(../images/logo.png) left center no-repeat;
+font:8em 'Bariol Thin', Arial, sans-serif;
+color:#000;
+text-transform:none;
+}
+
+#logo h1 span{
+font-family:'Bariol Regular', Arial, sans-serif;
+font-weight:normal;
+}
+
+#logo h2{
+width:475px;
+font:3em 'Bariol Bold', Arial, sans-serif;
+color:#000;
+position:absolute;
+left:50%;
+top:55%;
+padding:0 0 0 160px;
+margin:0 0 0 -285px;
+text-transform:none;
+}
+
+#logo a{
+display:block;
+width:38px;
+height:22px;
+background:url(../images/arrow_down.png) no-repeat;
+text-indent:-9999px;
+position:absolute;
+bottom:10%;
+left:50%;
+margin:0 0 0 -19px;
+}
+
+/*INFO*/
+
+#info{
+background:#89d7d1 fixed;
+}
+
+#info .box{
+width:700px;
+margin:0 auto;
+padding:112px 0 0 0;
+}
+
+#info h2{
+font-size:2.6em;
+text-transform:none;
+text-align:center;
+margin:0 0 80px 0;
+}
+
+.switcher{display:none;}
+
+#demo .switcher-container{
+width:250px;
+margin:0 auto;
+}
+
+#demo .filter-widget{
+position:relative;
+}
+
+#demo .filter-active{
+display:block;
+width:230px;
+height:35px;
+background:#fff;
+border-radius:5px;
+cursor:pointer;
+padding:15px 0 0 20px;
+font:1.3em 'Bariol Regular', Arial, sans-serif;
+position:relative;
+}
+
+#demo .filter-active:after{
+content:"»";
+font:1.8em/1 'Bariol Light', Arial, sans-serif;
+position:absolute;
+right:20px;
+top:9px;
+-ms-transform:rotate(90deg);
+-webkit-transform:rotate(90deg);
+transform:rotate(90deg);
+}
+
+#demo .switcher{
+background:#fff;
+width:250px;
+position:absolute;
+left:0;
+top:47px;
+border-radius:0 0 5px 5px;
+}
+
+#demo .switcher ul{
+padding:0 20px;
+}
+
+#demo .switcher li{
+list-style:none;
+padding:6px 0;
+border-bottom:1px solid #ccc;
+}
+
+#demo .switcher li:last-child{
+border:none;
+}
+
+#demo .switcher a{
+font:1.1em 'Bariol Regular', Arial, sans-serif;
+text-decoration:none;
+}
+
+#demo .switcher a.selected{
+color:#000;
+}
+
+#info article{
+padding:95px 0 0 0;
+}
+
+#info .column{
+width:330px;
+}
+
+#info .icon,
+#info h3{
+text-align:center;
+}
+
+#info .icon{
+height:70px;
+}
+
+.info-column-1 .icon{
+color:#9682ea;
+font-size:4.3em;
+}
+
+.info-column-2 .icon{
+color:#7458ea;
+}
+
+.info-column-2 .fa-mobile{font-size:1.5em;}
+
+.info-column-2 .fa-tablet{font-size:2.5em;}
+
+.info-column-2 .fa-desktop{font-size:4.3em;}
+
+#info h3{
+font:1.8em 'Bariol Regular', Arial, sans-serif;
+margin:0 0 12px 0;
+}
+
+#info .column p{
+font-size:1.3em;
+line-height:1.2;
+}
+
+.column .extra{
+text-align:center;
+padding:25px 0 0 0;
+}
+
+#info .column .extra p{
+font:1em 'Bariol Bold', Arial, sans-serif;
+text-transform:uppercase;
+}
+
+.column .html,
+.column .js{
+display:inline-block;
+margin:0 18px;
+}
+
+.column .filter-widget{
+position:relative;
+}
+
+.column .filter-active{
+display:inline-block;
+padding:6px 12px;
+border-radius:5px;
+background:#fff;
+cursor:pointer;
+font:1em 'Bariol Bold', Arial, sans-serif;
+text-transform:uppercase;
+}
+
+.column .switcher{
+position:absolute;
+bottom:45px;
+background:#fff;
+text-align:left;
+border-radius:5px;
+margin-left:-100%;
+}
+
+.column .switcher:after{
+content:"";
+display:block;
+width:15px;
+height:12px;
+background:url(../images/baloon_bg.png) no-repeat;
+position:absolute;
+bottom:-12px;
+left:50%;
+margin-left:-7px;
+}
+
+.column pre{
+padding:12px 18px 0 18px;
+}
+
+/*DOWNLOAD*/
+
+#download{
+background:#fff fixed;
+}
+
+#download-content{
+width:740px;
+height:455px;
+position:absolute;
+left:50%;
+top:50%;
+margin:-227px 0 0 -370px;
+}
+
+.column-1{
+width:370px;
+float:left;
+}
+
+.column-1 div{
+padding:20px;
+border-bottom:1px solid #fff;
+}
+
+.column-1 h3,
+.column-2 h2{
+font:1.2em 'Bariol Bold', Arial, sans-serif;
+margin:0 0 12px 0;
+}
+
+.column-1 li{
+list-style:none;
+font:1.1em/1.5em 'Bariol Regular', Arial, sans-serif;
+}
+
+.column-1 .requirements{
+background:#eff2f6;
+border-radius:6px 6px 0 0;
+}
+
+.column-1 .optionals{
+background:#eaedf1;
+}
+
+.column-1 .working{
+background:#e6e9ed;
+border-radius:0 0 6px 6px;
+}
+
+.column-2{
+width:280px;
+padding:0 32px 20px 0;
+float:right;
+}
+
+.column-2 p{
+font:1.1em/1.5em 'Bariol Regular', Arial, sans-serif;
+}
+
+.column-2 p.divider{
+font-family:'Bariol Bold', Arial, sans-serif;
+float:left;
+padding:11px 0 0 0;
+margin:0 12px;
+}
+
+.column-2 a.download,
+.column-2 a.docs,
+#update,
+#destroy{
+display:block;
+padding:12px 0;
+font:1.6em/1em 'Bariol Bold', Arial, sans-serif;
+text-align:center;
+color:#fff;
+text-decoration:none;
+background:#7458ea;
+border-radius:3px;
+margin:27px 0;
+}
+
+.column-2 a.docs{
+background:#bfe8bb;
+color:#000;
+}
+
+.column-2 .share{
+margin:36px 0 0 0;
+}
+
+/*DOCS*/
+
+#doc-info{
+width:970px;
+margin:30px auto;
+position:relative;
+}
+
+#doc-info section{
+margin:0 0 21px 0;
+}
+
+#doc-info h2{
+font:2em/1em 'Bariol Bold', Arial, sans-serif;
+margin:0 0 30px 0;
+}
+
+#doc-info nav{
+margin:0 0 21px 0;
+}
+
+#doc-info nav li{
+display:inline;
+font-size:1.2em;
+margin:0 9px 0 0;
+}
+
+#doc-info h3{
+font:1.3em/1em 'Bariol Bold', Arial, sans-serif;
+margin:0 0 6px 0;
+}
+
+#doc-info p{
+font-size:1.2em;
+margin:0 0 6px 0;
+}
+
+#doc-info pre{
+margin:0 0 12px 0;
+}
+
+#doc-info th{
+background:#474F58;
+color:#fff;
+padding:3px;
+font-size:1.1em;
+text-transform:uppercase;
+}
+
+#doc-info td{
+padding:3px;
+}
+
+#doc-info td.property{
+font:1.1em 'Bariol Regular', Arial, sans-serif;
+}
+
+#doc-info td.property,
+#doc-info td.default{
+width:20%;
+}
+
+#doc-info td.description{
+width:60%;
+}
+
+#settings em{
+font-family:'Bariol Regular', Arial, sans-serif;
+color:#DD1144;
+}
+
+#settings ul{
+padding:0 0 0 18px;
+}
+
+#demos ul{
+padding:0 0 0 18px;
+}
+
+#demos li{
+line-height:1.5em;
+}

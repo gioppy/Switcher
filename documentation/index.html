@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Switcher | jQuery plugin for create a simple dropdown menu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta property="og:url" content="http://switcher.giovannibuffa.it/" />
+  <meta property="og:site_name" content="Switcher" />
+  <meta name="description" content="Create simple and lightweight dropdown menu only in HTML &amp; jQuery, style with CSS." />
+  <meta property="og:title" content="Switcher | jQuery plugin for create a simple dropdown menu" />
+  <meta property="og:type" content="article" />
+  <link rel="canonical" href="http://switcher.giovannibuffa.it/" />
+  <link rel="shortlink" href="http://switcher.giovannibuffa.it/" />
+  <link rel="image_src" href="http://switcher.giovannibuffa.it/images/switcher_logo.jpg" />
+  <meta property="og:image" content="http://switcher.giovannibuffa.it/images/switcher_logo.jpg" />
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link rel="stylesheet" href="styles/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/skeleton.css" />
+</head>
+<body>
+<section id="wrapper">
+  <!--LOGO-->
+  <section id="logo" class="fullscreen">
+    <h1><span>.</span>switcher</h1>
+    <a href="#info" id="go-down">Go down</a>
+  </section>
+  <!--FINE LOGO-->
+  <!--INFO-->
+  <section id="info" class="fullscreen">
+    <div class="box">
+      <h2>Create simple and lightweight dropdown menu only in <strong>HTML</strong> &amp; <strong>jQuery</strong>, style with <strong>CSS</strong>.</h2>
+      <div id="demo">
+        <div class="switcher-container">
+          <div class="filter-widget">
+            <span class="filter-active">select one option...</span>
+            <div class="switcher">
+              <ul>
+              	<li><a href="#">HTML</a></li>
+              	<li><a href="#">HTML5</a></li>
+              	<li><a href="#">CSS</a></li>
+              	<li><a href="#">CSS3</a></li>
+              	<li><a href="#">JavaScript</a></li>
+              	<li><a href="#">PHP</a></li>
+              	<li><a href="#">MySQL</a></li>
+              	<li><a href="#">Drupal</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <article>
+        <div class="column info-column-1 left">
+          <div class="icon"><span class="fa fa-code"></span></div>
+          <h3>Simple to code</h3>
+          <p>Just 4 lines of HTML and a line of JavaScript!<br />All the rest is made by your CSS.</p>
+          <div class="extra">
+            <div class="html">
+            <div class="switcher-container">
+              <div class="filter-widget">
+                <span class="filter-active">View HTML</span>
+                <div class="switcher">
+                  <pre>
+&lt;div class=&quot;switcher-container&quot;&gt;
+  &lt;div class=&quot;filter-widget&quot;&gt;
+    &lt;span class=&quot;filter-active&quot;&gt;select&lt;/span&gt;
+    &lt;div class=&quot;switcher&quot;&gt;
+      //insert here your content
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="js">
+            <div class="switcher-container">
+              <div class="filter-widget">
+                <span class="filter-active">View jQuery</span>
+                <div class="switcher">
+                  <pre>
+jQuery('.switcher-container').switcher();
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="column info-column-2 right">
+          <div class="icon"><span class="fa fa-mobile"></span> <span class="fa fa-tablet"></span> <span class="fa fa-desktop"></span></div>
+          <h3>Ready to Responsive</h3>
+          <p>Use the simple media queries to the widget. Functionality remain the same in every device!</p>
+          <div class="extra">
+            <p><span class="fa fa-compress"></span> Resize the Window!</p>
+          </div>
+        </div>
+        <span class="clear"></span>
+      </article>
+    </div>
+  </section>
+  <!--FINE INFO-->
+  <!--DOWNLOAD-->
+  <section id="download" class="fullscreen">
+    <section id="download-content">
+      <div class="column-1">
+        <div class="requirements">
+          <h3>Requirements</h3>
+          <ul>
+            <li>jQuery 1.4.X + | <a href="http://jquery.com/" target="_blank">Website</a> - <a href="http://jquery.com/download/" target="_blank">Download</a></li>
+          </ul>
+        </div>
+        <div class="working">
+          <h3>Working on</h3>
+          <ul>
+            <li>Internet Explorer 8.x +</li>
+            <li>Mozilla FireFox</li>
+            <li>Apple Safari</li>
+            <li>Google Chrome</li>
+            <li>Opera</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="column-2">
+        <h2>Switcher latest version</h2>
+        <p>Download the latest version of Switcher plugin.</p>
+        <a href="https://github.com/gioppy/Switcher/archive/master.zip" class="download">download now</a>
+        <a href="docs/" class="docs">read documentation</a>
+        <p>Find a bug or suggest e feature? <a href="https://github.com/gioppy/Switcher/issues" target="_blank">Open an issue on GitHub!</a></p>
+        <div class="share">
+          <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+            <p class="divider">SHARE</p>
+            <a class="addthis_button_facebook"><img src="images/fb_icon.gif" alt="" /></a>
+            <a class="addthis_button_twitter"><img src="images/tw_icon.gif" alt="" /></a>
+            <a class="addthis_button_email"><img src="images/mail_icon.gif" alt="" /></a>
+            <a class="addthis_button_linkedin"><img src="images/linkedin_icon.gif" alt="" /></a>
+            <a class="addthis_button_stumbleupon"><img src="images/stumble_icon.gif" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!--FINE DOWNLOAD-->
+</section>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-533d5dcd06606a9e"></script>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="js/jquery.switcher.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3538311-20', 'giovannibuffa.it');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/*DEMO*/
+
+a.back{
+position:absolute;
+right:0;
+top:9px;
+font:1.2em 'Bariol Regular', Arial, sans-serif;
+text-decoration:none;
+}
+
+#live-demo{
+width:100%;
+}
+
+span.clear{
+display:block;
+clear:both;
+height:0;
+}
+
+#live-demo .filter-active,
+#live-demo .switcher{
+background:#9FE9BD;
+}
+
+#live-demo .switcher li{
+border-color:#fff;
+}
+
+#to-top .switcher{
+top:auto;
+bottom:44px;
+border-radius:5px 5px 0 0;
+}
+
+#to-top .filter-active,
+#to-top .switcher{
+background:#7458EA;
+}
+
+#to-top .filter-active{
+color:#fff;
+}
+
+#to-top .filter-active:after{
+transform:rotate(-90deg);
+}
+
+#to-top .switcher a{
+color:#ccc;
+}
+
+#to-top .switcher a.selected{
+color:#fff;
+}
