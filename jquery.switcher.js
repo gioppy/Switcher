@@ -5,8 +5,10 @@
   	    var $this = $(this);
   	    $('.filter-active', $this).click(function(){
   	      $('.switcher', $(this).parent()).slideToggle('fast');
-        })
-        $('a', $this).click(function(){
+        });
+        
+        $this.on('click', 'a', function(e){
+          if(settings.follow === false) e.preventDefault();
           var $link = $(this);
           var activeText = $link.text();
           $('a.selected', $this).removeClass('selected');
@@ -14,8 +16,7 @@
           $('.switcher', $this).slideUp('fast', function(){
             $link.addClass('selected');
           });
-          return settings.follow;
-        })
+        });
       });
 	  }
 	},
