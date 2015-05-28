@@ -18,6 +18,13 @@
           });
         });
       });
+      
+      $(document).on('click touch', function(e){
+        var switcher = $(target);
+        if(switcher.has(e.target).length == 0){
+          $('.switcher', switcher).slideUp('fast');
+        }
+      });
 	  }
 	},
 	methods = {
